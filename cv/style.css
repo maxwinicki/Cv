@@ -1,0 +1,60 @@
+html{
+    width: 100%;
+}
+.perfil{
+    display: flex;
+    width: 100%;  
+    background-color: #888;
+    justify-content: center;
+    padding:30px ;
+    border: 10px solid #555;
+    border-radius: 20px;
+}
+
+
+.name{
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 10px solid #555;
+
+}
+.contenedor-perfil{
+    width: 100%;
+    height: 300px;
+}
+
+.image-profile{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 5px solid #555;
+    border-radius: 100%;
+    margin: 30px;
+
+}
+
+.info{
+    padding-top: 50px;
+
+}
+h2{
+    display: block;
+    text-align: center;
+}
+.h2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px;
+
+
+}
+/* 
+<ul class="skills">
+            <li>Max Winicki</li>
+            <li>Tengo 17 años</li>
+            <li>Me gusta jugar golf</li>
+            <li>Me apasionan los temas elacionados con la tecnología</li>
+        </ul> */
